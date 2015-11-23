@@ -69,7 +69,7 @@ public final class CSVPrinter implements Flushable, Closeable {
         if (format.getHeaderComments() != null) {
             for (final String line : format.getHeaderComments()) {
                 if (line != null) {
-                    this.printComment(line);
+                    this.printComment(line + "A");
                 }
             }
         }
