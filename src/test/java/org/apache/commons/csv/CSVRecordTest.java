@@ -16,6 +16,7 @@
  */
 package org.apache.commons.csv;
 
+import java.io.StringReader;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
