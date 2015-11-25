@@ -16,14 +16,12 @@
  */
 package org.apache.commons.csv;
 
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
-import java.io.FileReader;
-//import java.io.IOException;
-import java.io.InputStream;
-import java.io.OutputStream;
+import static org.apache.commons.csv.TokenMatchers.hasContent;
+import static org.apache.commons.csv.TokenMatchers.hasType;
+import static org.apache.commons.csv.TokenMatchers.isReady;
+import static org.apache.commons.csv.TokenMatchers.matches;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
