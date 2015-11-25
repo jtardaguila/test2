@@ -31,7 +31,6 @@ import java.util.Map;
 import java.util.TreeMap;
 import java.util.concurrent.ConcurrentHashMap;
 
-import org.junit;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
