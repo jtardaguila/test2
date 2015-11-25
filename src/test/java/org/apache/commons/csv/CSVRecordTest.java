@@ -16,12 +16,8 @@
  */
 package org.apache.commons.csv;
 
-import static org.apache.commons.csv.TokenMatchers.hasContent;
-import static org.apache.commons.csv.TokenMatchers.hasType;
-import static org.apache.commons.csv.TokenMatchers.isReady;
-import static org.apache.commons.csv.TokenMatchers.matches;
-import static org.junit.Assert.assertFalse;
-import static org.junit.Assert.assertTrue;
+import java.util.List;
+
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
