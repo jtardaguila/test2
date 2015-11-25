@@ -16,8 +16,14 @@
  */
 package org.apache.commons.csv;
 
-import static org.apache.commons.csv.Constants.END_OF_STREAM;
-import static org.apache.commons.csv.Constants.UNDEFINED;
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.FileReader;
+//import java.io.IOException;
+import java.io.InputStream;
+import java.io.OutputStream;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
